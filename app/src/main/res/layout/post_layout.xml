@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    android:background="@drawable/customborder"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame1"
+            >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_action"
+            android:id="@+id/uploaderdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/uploaderName"
+                android:paddingTop="16dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="@color/blue_900"
+                android:text="Name"
+                />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/discription"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="bottom"
+            android:textColor="@color/grey_700"
+            android:layout_below="@+id/uploaderdp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Description"
+            />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/uploadedImage"
+            android:background="@color/grey_300"></View>
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="360dp"
+            android:id="@+id/uploadedImage"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/frame1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/uploadedImage"
+            android:background="@color/white"
+            android:id="@+id/likecommentbox">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:id="@+id/commentbutton"
+                android:src="@drawable/comm"/>
+            <ImageView
+                    android:id="@+id/downloadbutton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:src="@drawable/download148"
+                    />
+
+            <ImageView
+                android:id="@+id/share_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:src="@drawable/fbsharebutton"
+                />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/share_external_button"
+                android:background="@color/white"
+                android:src="@drawable/shareexternal"
+                android:layout_gravity="center" />
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/sharebox"-->
+                <!--android:layout_weight="1">-->
+
+
+                <!--<com.facebook.share.widget.ShareButton-->
+                    <!--android:id="@+id/share_button"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_weight="1" />-->
+
+
+            <!--</FrameLayout>-->
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/likecommentbox"
+            android:background="@color/grey_300"></View>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

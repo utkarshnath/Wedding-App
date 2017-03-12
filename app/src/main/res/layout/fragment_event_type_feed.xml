@@ -1,0 +1,38 @@
+
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl"
+    android:background="@color/white"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shikhar.weddingappsample.FeedFragment"
+    android:orientation="vertical">
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:id="@+id/Feed_swipe_refresh_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+        <!--<include layout="@layout/app_bar"-->
+        <!--android:id="@+id/app_bar"></include>-->
+        <!-- TODO: Update blank fragment layout -->
+        <!--<TextView android:layout_width="match_parent" android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="@string/HotOffers"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginBottom="12dp"-->
+        <!--android:layout_marginLeft="6dp"-->
+
+        <!--android:textSize="20sp"-->
+        <!--android:textColor="@color/primary_text"/>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_recycler_view"></android.support.v7.widget.RecyclerView>
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+
+</FrameLayout>
+

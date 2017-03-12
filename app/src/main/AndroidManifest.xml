@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shikhar.weddingappsample" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-sdk android:minSdkVersion="16"
+        android:targetSdkVersion="23"
+        android:maxSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:name=".Myapplication"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1668623250025537"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/LoginTheme" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".InviteeList"
+            android:label="@string/title_activity_invitee_list" >
+        </activity>
+
+        <receiver android:name=".Receiver" />
+
+        <activity
+            android:name=".Comments"
+            android:label="@string/title_activity_comments" >
+        </activity>
+        <activity
+            android:name=".PostAddActivity"
+            android:label="@string/title_activity_post_add" >
+        </activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+        <activity
+            android:name=".CropActivity"
+            android:label="@string/title_activity_crop" >
+        </activity>
+        <activity
+            android:name=".EventSpecificFeedActivity"
+            android:label="@string/title_activity_event_type_feed_" >
+        </activity>
+        <activity
+            android:name=".ViewImageActivity"
+            android:theme="@style/viewImage" >
+        </activity>
+        <activity android:name=".PhotoAlbumActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

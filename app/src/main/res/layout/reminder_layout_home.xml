@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/customborder">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/reminderTitle"
+        android:text="Reminder title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:fontFamily="serif"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="02/11/1995"
+        android:textStyle="bold"
+        android:textColor="@color/grey_500"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="serif"
+        android:id="@+id/date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/grey_500"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="14:00"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/time"/>
+
+
+
+</LinearLayout>

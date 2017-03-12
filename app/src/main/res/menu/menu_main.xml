@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_logout" android:title="Logout"
+        android:orderInCategory="110" app:showAsAction="never" />
+    <item android:id="@+id/action_invitee_list" android:title="Invitee List"
+        android:orderInCategory="120" app:showAsAction="never" />
+    <item android:id="@+id/action_send_invitation" android:title="Send Invitation"
+        android:orderInCategory="130" app:showAsAction="never" />
+
+    <item android:id="@+id/action_see_invitation"
+        android:title="Invitation"
+        android:icon="@drawable/invitationaction"
+        app:showAsAction="always" />
+
+</menu>

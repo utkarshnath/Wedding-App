@@ -1,0 +1,25 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shikhar.weddingappsample.InviteeList">
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="9"
+    android:id="@+id/ourwedding_recycler_view">
+
+</android.support.v7.widget.RecyclerView>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:textColor="@color/white"
+    android:layout_height="50dp"
+    android:text="View Invitation"
+    android:background="@color/primary"
+    android:id="@+id/invitation_view_button"/>
+
+</LinearLayout>

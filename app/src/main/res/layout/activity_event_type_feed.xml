@@ -1,0 +1,5 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:name="com.shikhar.weddingappsample.Event_type_feed_ActivityFragment"
+    tools:layout="@layout/fragment_event_type_feed" android:layout_width="match_parent"
+    android:layout_height="match_parent" />

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/customborder">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/addReminder"
+    android:text="Add a reminder"
+    android:textColor="@color/grey_500"
+    android:textSize="24sp"
+    android:fontFamily="serif"
+    android:layout_margin="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Title"
+        android:layout_margin="15dp"
+        android:id="@+id/title"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Date"
+        android:layout_margin="15dp"
+        android:focusable="false"
+        android:id="@+id/date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Time"
+        android:focusable="false"
+        android:layout_margin="15dp"
+        android:id="@+id/time"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+</LinearLayout>
