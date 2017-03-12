@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.orhanobut/dialogplus/1.10/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="95373ed729c03b988eb4488d9758287e1ea5d21e">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-a716dc527229179df29b088a70cd96a33f8623cb.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.soundcloud.android/android-crop/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="11a65cf2b30c192b38a881d626fa771a78a2293d">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-64d070e315548b481abb3eac180012557320586c.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-a34ac2e6c7a07865d765951dc98db32a822bbd37.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/picasso-2.5.2-f0fdbefda9ebbd76f847a054891733a2cf648240.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/library-2.4.0-81efede3b2ac46b98b93858d8d45d2ce4249b57a.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.7/ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1/kenburnsview-1.0.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/kenburnsview-1.0.7-cc7c94cca49de8a98e6258bffc2bce281e14cd12.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.github.flavienlaurent.discrollview/library/0.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4882ae79d1b017eb023db1890a8a4fd5c2862795">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-121d73455749a0ba51fb85fcc838857907487a11.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-681326b6610476981884ccc2d7b2cdfcb94f63d0.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-5b074bac8986dc74173ffdfbba5ee5d54b705e0f.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-8409fe436560a3a4c54cf2efa32c483c8eb2da9d.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-5e973627fc28758f12c62a6ad1cbb63517b1973e.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-76ddddbe0419496ac78e03f0dcf0d3b1678e0992.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/support-annotations-22.2.1-b438015ecb5870e0accedfa8efcbb3527162a43b.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/libs/Parse-1.10.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="181b435832725bec96c11ff568bdfbccdacab944">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/Parse-1.10.1-b6864321c62cbf77b0267004a24db77569d26469.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/internal_impl-22.2.1-ab02ee6b93ea97f155e5e6570d89e1777aceb548.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/bolts-tasks-1.4.0-aff1b7d100d496cb48a5fc8238c328d77dc7f7fd.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/classes-565c1968f03d2ca23031b33460f9c9279ce44e08.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/bolts-applinks-1.4.0-2633d12b0258e6837815f2891dfee86dfd2e910a.jar" />
+    </item>
+    <item
+        jar="/Users/utkarshnath/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.4.0/cc174c559b5177982887bf6e1b76003aebad9516/bolts-android-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cc174c559b5177982887bf6e1b76003aebad9516">
+        <dex dex="/Users/utkarshnath/Desktop/The WeddingApp Final 3/app/build/intermediates/pre-dexed/release/bolts-android-1.4.0-7e618d8e1b9fac347162ff1f42946bcc27144916.jar" />
+    </item>
+
+</items>
